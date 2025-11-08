@@ -1,3 +1,4 @@
+let input = alert(prompt("سر چی داری شرط میبندی؟"));
 function rollDicc(){
     const randomNumber1 = Math.floor(Math.random()*6)+1;
     const randomNumber2 = Math.floor(Math.random()*6)+1;
@@ -8,15 +9,16 @@ function rollDicc(){
     document.querySelector(".img1").setAttribute("src" , imgSrc1);
     document.querySelector(".img2").setAttribute("src",imgSrc2);
 
-    const title = document.querySelector("h1");
+     const title = document.querySelector("h1");
     if (randomNumber1 > randomNumber2) {
-        title.textContent = " ! مهدی برنده س ";
+        title.textContent = " مهدی برنده س و پول "+ input + "رو حدیث بده ";
     }else if (randomNumber2 > randomNumber1) {
-        title.textContent = " ! حدیث برندس ";
+        title.textContent = " حدیثه برندس و پول " +input+ " رو مهدی بده";
     }else {
-        title.textContent = " مساویه بابا! پول پیتزارو نص کنین ";
+        title.textContent = " مساویه بابا! پول "+input +" نص کنین ";
     }
 }
+
 
 
 
