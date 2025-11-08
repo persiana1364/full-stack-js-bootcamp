@@ -1,0 +1,67 @@
+/* .playwrite {
+  font-family: "Playwrite DE Grund Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: blueviolet;
+    color: burlywood;
+    text-align: center;
+    font-family: 'Playwrite DE Grund Guides', sans-serif;
+
+}
+
+h1{
+    margin: 40px 0 10px;
+    font-family:"DE" , cursive ;
+    font-size: 5rem;
+    text-shadow: 5px 0 brown;
+}
+
+.container{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.dic_area{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px 0 20px;
+
+}
+
+.player p{
+    font-size: 2rem;
+    margin-bottom:10px;
+
+}
+
+img{
+    width: 160px;
+    height:160px;
+}
+
+.roll{
+    font-size:2rem;
+    background-color: yellow;
+    color: rgb(0, 68, 255);
+    border: none;
+    padding: 14px 28px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform .1s ease, background-color .2s ease;
+}
+.roll:hover { background-color: orangered;}
+.roll:active {transform: scale(0.98);}
+
+footer{
+    margin: 60px 0 30px;
+    color: black;
+    font-size: 1rem;
+}
