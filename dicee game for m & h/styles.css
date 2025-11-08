@@ -13,13 +13,13 @@ body{
     background-color: blueviolet;
     color: burlywood;
     text-align: center;
-    font-family: 'Playwrite DE Grund Guides', sans-serif;
+   
 
 }
 
 h1{
     margin: 40px 0 10px;
-    font-family:"DE" , cursive ;
+   
     font-size: 5rem;
     text-shadow: 5px 0 brown;
 }
@@ -68,5 +68,6 @@ footer{
     font-size: 1rem;
 
 }
+
 
 
