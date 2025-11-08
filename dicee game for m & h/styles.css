@@ -80,6 +80,30 @@ footer{
     font-size: 3rem;
     text-shadow: 3px 0 brown;
   }
+  #bet-box {
+  margin-top: 20px;
+}
+#bet-input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Vazir', sans-serif;
+  width: 220px;
+  text-align: center;
+}
+#confirm-bet {
+  padding: 10px 16px;
+  border: none;
+  background: gold;
+  border-radius: 8px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+
+
 
 
 
