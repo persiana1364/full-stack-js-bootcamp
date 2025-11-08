@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎲 تاس قلقلی 🎲</title>
+
+  <!-- فونت وزیر -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css">
+  
+  <!-- استایل -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- SweetAlert -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>🎲 تاس قلقلی 🎲</h1>
+
+    <!-- بخش تاس‌ها -->
+    <div class="dic_area">
+      <div class="player">
+        <p>بازیکن ۱</p>
+        <img class="img1" src="images/dice1.png" alt="تاس بازیکن اول">
+      </div>
+      <div class="player">
+        <p>بازیکن ۲</p>
+        <img class="img2" src="images/dice2.png" alt="تاس بازیکن دوم">
+      </div>
+    </div>
+
+    <!-- دکمه‌ها -->
+    <div class="btn-area">
+      <button id="start-btn">شروع بازی</button>
+      <button id="roll-btn">تاس بریز</button>
+    </div>
+
+    <!-- پخش‌کننده صوت -->
+    <div class="audio-player">
+      <button id="play">▶️</button>
+      <button id="pause">⏸️</button>
+      <input id="audioSeek" type="range" value="0" min="0" max="100">
+    </div>
+
+    <footer>© ساخته‌ی الهام ۱۴۰۴ 😊</footer>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

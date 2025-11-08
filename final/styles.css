@@ -1,0 +1,153 @@
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Vazir', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: blueviolet;
+  color: burlywood;
+  text-align: center;
+}
+
+/* 🎯 عنوان اصلی */
+h1 {
+  margin: 40px 0 10px;
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: bold;
+  text-shadow: 4px 0 brown;
+}
+
+/* 📦 بدنه اصلی */
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* 🎲 تاس‌ها */
+.dic_area {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.player p {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* 🟡 دکمه‌ها */
+.btn-area {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+button {
+  width: 90px;
+  height: 90px;
+  font-size: 1.3rem;
+  background-color: yellow;
+  color: rgb(0, 68, 255);
+  border: 4px solid black;
+  box-shadow: 6px 6px green;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform .15s ease, background-color .2s ease;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* 🎧 پخش‌کننده صدا - تم بنفش طلایی */
+.audio-player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: linear-gradient(135deg, #4a148c, #ffcc00);
+  padding: 10px 20px;
+  border-radius: 35px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  width: fit-content;
+  margin: 40px auto 20px;
+}
+
+.audio-player button {
+  border: none;
+  background: rgba(255, 255, 255, 0.9);
+  color: #4a148c;
+  font-size: 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.audio-player button:hover {
+  transform: scale(1.1);
+  background: #fff3c1;
+}
+
+#audioSeek {
+  width: 140px;
+  accent-color: gold;
+  cursor: pointer;
+  height: 6px;
+  border-radius: 10px;
+}
+
+/* 🦶 فوتر */
+footer {
+  margin: 40px 0 30px;
+  color: black;
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+/* 📱 نسخه موبایل */
+@media (max-width: 600px) {
+  img {
+    width: 120px;
+    height: 120px;
+  }
+
+  button {
+    width: 70px;
+    height: 70px;
+    font-size: 1rem;
+  }
+
+  .audio-player {
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+  }
+
+  #audioSeek {
+    width: 160px;
+  }
+}
