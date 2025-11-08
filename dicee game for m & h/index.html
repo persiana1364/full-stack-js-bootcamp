@@ -1,44 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dicee Game</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        @import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css');
-        body { font-family: 'Vazir', sans-serif; }
-    </style>
-
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تاس قلقلی 🎲</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1 class="playwrite">بزن رو تاس قلقلی </h1>
-      
-       <div class="dic_area">
-           <div class="player" ID="player1" >
-               <p>مهدی🎲 </p>
-               <img class="img1" src="images/dice6.png" alt="Dicee player1">
-           </div>
-           <div class="player" ID="player2">
-               <p>حدیثه🎲 </p>
-               <img class="img2" src="images/dice6.png" alt="Dicee player2">
-           </div>
-    
-       </div>
-        <button class="roll">تاس قلقلی</button>
-        <div id="bet-box" class="hidden">
-       <input type="text" id="bet-input" placeholder="سر چی داری شرط می‌بندی؟">
-       <button id="confirm-bet">ثبت</button>
-</div>
+  <div class="container">
+    <h1>بزن رو تاس قلقلی 🎲</h1>
 
-    </div>    
+    <div class="dic_area">
+      <div class="player" id="player1">
+        <p>مهدی 🎲</p>
+        <img class="img1" src="images/dice6.png" alt="Dice Player 1">
+      </div>
 
-    <footer>www.elhamnajar.com</footer>
+      <div class="player" id="player2">
+        <p>حدیثه 🎲</p>
+        <img class="img2" src="images/dice6.png" alt="Dice Player 2">
+      </div>
+    </div>
 
-    <script src="index.js"></script>
-</body>
+    <button class="roll">تاس قلقلی</button>
 
-</html>
+    <!-- باکس شرط -->
+    <div id="bet-box">
+      <input type="text" id="bet-input" placeholder="سر چی داری شرط می‌بندی؟">
+      <button id="confirm-bet">ثبت</button>
+    </div>
+  </div>
 
+  <footer>© ۲۰۲۵ persiana1364.g
