@@ -23,11 +23,11 @@ function rollDicc(){
 
      const title = document.querySelector("h1");
     if (randomNumber1 > randomNumber2) {
-        title.textContent = " مهدی برنده س و پول "+ input + "رو حدیث بده ";
+        title.textContent = " مهدی برنده س و پول "+ input + " رو حدیث بده ";
     }else if (randomNumber2 > randomNumber1) {
-        title.textContent = " حدیثه برندس و پول " +input+ " رو مهدی بده";
+        title.textContent = " حدیثه برندس و پول " + input + " رو مهدی بده ";
     }else {
-        title.textContent = " مساویه بابا! پول "+input +" نص کنین ";
+        title.textContent = " مساویه بابا! پول "+ input +" نص کنین ";
     }
 }
 
@@ -35,5 +35,6 @@ function rollDicc(){
 
 
 document.querySelector(".roll").addEventListener("click",rollDicc);
+
 
 
