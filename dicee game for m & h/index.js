@@ -1,4 +1,16 @@
-let input = prompt("سر چی داری شرط می‌بندی؟") || "چیزی 😄";
+let input = "";
+
+const betBox = document.getElementById("bet-box");
+const betInput = document.getElementById("bet-input");
+const confirmBtn = document.getElementById("confirm-bet");
+
+betBox.classList.remove("hidden");
+
+confirmBtn.addEventListener("click", () => {
+  input = betInput.value.trim() || "چیزی";
+  betBox.classList.add("hidden");
+});
+
 function rollDicc(){
     const randomNumber1 = Math.floor(Math.random()*6)+1;
     const randomNumber2 = Math.floor(Math.random()*6)+1;
@@ -23,4 +35,5 @@ function rollDicc(){
 
 
 document.querySelector(".roll").addEventListener("click",rollDicc);
+
 
