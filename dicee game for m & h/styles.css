@@ -1,5 +1,7 @@
-@import url('https://cdn.fontcdn.ir/Font/Sahel/Sahel.css');
-body { font-family: 'Sahel', sans-serif; }
+@import url('https://cdn.fontcdn.ir/Font/Vazir/Vazir.css');
+body {
+  font-family: 'Vazir', sans-serif;
+}
 
 *{
     box-sizing: border-box;
@@ -64,3 +66,4 @@ footer{
     font-size: 1rem;
 
 }
+
