@@ -88,7 +88,7 @@ button:active {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  background: linear-gradient(135deg, #4a148c, #ffcc00);
+  background: linear-gradient(yellow,orange);
   padding: 10px 20px;
   border-radius: 35px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
@@ -151,4 +151,5 @@ footer {
     width: 160px;
   }
 }
+
 
