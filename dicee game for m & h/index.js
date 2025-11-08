@@ -1,4 +1,4 @@
-let input = alert(prompt("سر چی داری شرط میبندی؟"));
+let input = prompt("سر چی داری شرط می‌بندی؟") || "چیزی 😄";
 function rollDicc(){
     const randomNumber1 = Math.floor(Math.random()*6)+1;
     const randomNumber2 = Math.floor(Math.random()*6)+1;
@@ -23,3 +23,4 @@ function rollDicc(){
 
 
 document.querySelector(".roll").addEventListener("click",rollDicc);
+
